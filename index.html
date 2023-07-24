@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Mie</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Course Mie</h2>
+          <p class="sub-heading">By me learn and adventure</p>
+        </div>
+        <div class="feature f1">
+          <h4 class="price">500K</h4>
+          <p class="item">Course Learn</p>
+        </div>
+        <div class="feature f2">
+          <h4 class="price">750K</h4>
+          <p class="item">Course adventure</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <!-- hamburger -->
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="brand">Course Mie</div>
+
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Course</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon">💻</div>
+          <h3>Tutorial</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, dolorum.</p>
+        </div>
+
+        <div class="service">
+          <div class="icon">⌨</div>
+          <h3>Hacks</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quia aspernatur quibusdam laudantium!</p>
+        </div>
+
+        <div class="service">
+          <div class="icon">🌿</div>
+          <h3>Nature</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae.</p>
+        </div>
+
+        <div class="service">
+          <div class="icon">👕</div>
+          <h3>Merchandise</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima dicta harum labore ipsum impedit consectetur adipisci expedita.</p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/201x201" alt="" />
+        <img src="https://source.unsplash.com/random/202x202" alt="" />
+        <img src="https://source.unsplash.com/random/203x203" alt="" />
+        <img src="https://source.unsplash.com/random/204x204" alt="" />
+        <img src="https://source.unsplash.com/random/205x205" alt="" />
+        <img src="https://source.unsplash.com/random/206x206" alt="" />
+        <img src="https://source.unsplash.com/random/207x207" alt="" />
+        <img src="https://source.unsplash.com/random/208x208" alt="" />
+        <img src="https://source.unsplash.com/random/209x209" alt="" />
+        <img src="https://source.unsplash.com/random/210x210" alt="" />
+      </section>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
